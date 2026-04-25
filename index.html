@@ -4,6 +4,128 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  line-height: 1.6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  color: white;
+  padding: 15px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.section {
+  padding: 60px;
+  text-align: center;
+}
+
+.home {
+  background-image: url(free..webp);
+  background-size: cover;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 10px;
+  width: 150px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #333;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+#raja1 {
+  color: white;
+}
+.raja2 {
+  color: rgb(222, 7, 168);
+}
+.raja3 {
+  color: rgb(239, 237, 245);
+}
+#tanveer {
+  background-image: url(bundle.jpg);
+  background-size: cover;
+  border: 2px solid;
+}
+#yash {
+  background-image: url(gun.jpg);
+  background-size: cover;
+  border: 2px solid;
+  height: 100px;
+  width: 100px;
+}
+#deepak {
+  background-image: url(emot.jpg);
+  background-size: cover;
+  border: 2px solid;
+}
+.p1 {
+  color: white;
+  text-decoration: 2px underline white;
+}
+#pp {
+  color: white;
+  text-decoration: 2px underline white;
+}
+#ss {
+  color: white;
+  text-decoration: 2px underline white;
+}
+#about_us {
+  background-color: white;
+}</style>
     <link rel="stylesheet" href="javascript.css" />
   </head>
   <body bgcolor="red">
@@ -69,7 +191,40 @@
         <p>© 2026 MySite. All rights reserved.</p>
       </footer>
 
-      <script src="javascript.js"></script>
+      <script src="javascript.js"> function showAlert() {
+  alert("Welcome to the website!");
+}
+
+function toggleMenu() {
+  const nav = document.querySelector(".nav-links");
+  if (nav.style.display === "flex") {
+    nav.style.display = "none";
+  } else {
+    nav.style.display = "flex";
+  }
+}function showAlert() {
+  alert("Welcome to the website!");
+}
+
+function toggleMenu() {
+  const nav = document.querySelector(".nav-links");
+  if (nav.style.display === "flex") {
+    nav.style.display = "none";
+  } else {
+    nav.style.display = "flex";
+  }
+}function showAlert() {
+  alert("Welcome to the website!");
+}
+
+function toggleMenu() {
+  const nav = document.querySelector(".nav-links");
+  if (nav.style.display === "flex") {
+    nav.style.display = "none";
+  } else {
+    nav.style.display = "flex";
+  }
+}</script>
     </form>
   </body>
 </html>
